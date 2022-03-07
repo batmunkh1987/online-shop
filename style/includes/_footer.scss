@@ -1,0 +1,21 @@
+@import "./variable";
+.footer{
+    position:absolute;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backColor;
+    transition: 0.3s linear;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 2vh;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: $darkColor;
+    }
+}

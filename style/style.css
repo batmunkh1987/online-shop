@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-decoration: none;
+}
+
+.headMain {
+  width: 92%;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4% 0 4%;
+  background-color: #7e8ea5;
+}
+
+.headMain .headTopic {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headMain .headTopic div {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headMain .headTopic div a {
+  text-decoration: none;
+  font-size: 2.5vh;
+  color: white;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.headMain .headTopic div a:hover {
+  -webkit-box-shadow: 0 0.2vh #303952;
+          box-shadow: 0 0.2vh #303952;
+  color: #303952;
+}
+
+.headSearch {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headSearch .searchInp {
+  width: 90%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headSearch .searchInp div {
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3vh;
+}
+
+.headSearch .searchInp div input {
+  height: 4vh;
+  padding-left: 3vh;
+  width: 65%;
+  height: 100%;
+  font-size: 2.2vh;
+  border-radius: 3vh;
+  border: none;
+  background-color: white;
+  color: #596275;
+}
+
+.headSearch .searchInp div input::-webkit-input-placeholder {
+  color: #596275;
+}
+
+.headSearch .searchInp div input:-ms-input-placeholder {
+  color: #596275;
+}
+
+.headSearch .searchInp div input::-ms-input-placeholder {
+  color: #596275;
+}
+
+.headSearch .searchInp div input::placeholder {
+  color: #596275;
+}
+
+.headSearch .searchInp div input:focus {
+  outline: none;
+}
+
+.headSearch .searchInp div button {
+  width: 35%;
+  height: 5vh;
+  border-radius: 3vh;
+  border: 0.2vh solid #7e8ea5;
+  background-color: #596275;
+  color: white;
+  font-size: 2.5vh;
+  -webkit-transform: translateY(-0.3vh);
+          transform: translateY(-0.3vh);
+  -webkit-transition: 0.15s linear;
+  transition: 0.15s linear;
+  -webkit-box-shadow: 0 0.4vh #596275;
+          box-shadow: 0 0.4vh #596275;
+}
+
+.headSearch .searchInp div button i {
+  margin-right: 1.5vh;
+}
+
+.headSearch .searchInp div button:active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-box-shadow: 0 0.1vh #596275;
+          box-shadow: 0 0.1vh #596275;
+}
+
+.headLogin {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #596275;
+  height: 100%;
+}
+
+.headLogin .headLogo {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headLogin .headLogo i {
+  margin-right: 4vh;
+  font-size: 3vh;
+  color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.headLogin .headLogo i:hover {
+  cursor: pointer;
+  color: #303952;
+}
+
+.headLogin .headLog {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headLogin .headLog button {
+  width: 100%;
+  font-size: 3vh;
+  color: white;
+  border: none;
+  background-color: #7e8ea5;
+  line-height: 3vh;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 2vh;
+}
+
+.headLogin .headLog button i {
+  margin-right: 0.8vh;
+  line-height: 4vh;
+  font-size: 2.5vh;
+}
+
+.headLogin .headLog button:hover {
+  border: 0.2vh solid white;
+  border-radius: 2vh;
+  background-color: white;
+  color: #7e8ea5;
+}
+
+.logPage {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+  position: absolute;
+  visibility: hidden;
+}
+
+.logPage .logIn {
+  z-index: 150;
+  width: 25%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 0.5vh solid #7e8ea5;
+  border-radius: 5vh;
+}
+
+.logPage .logIn .loginAvatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30%;
+  background-color: #fff;
+  border-top-left-radius: 4vh;
+  border-top-right-radius: 4vh;
+  border-bottom: 0.5vh solid rgba(126, 142, 165, 0.5);
+}
+
+.logPage .logIn .loginAvatar i {
+  font-size: 10vh;
+  color: #303952;
+}
+
+.logPage .logIn .loginInsert {
+  height: 45%;
+  width: 100%;
+}
+
+.logPage .logIn .loginInsert .loginInsertName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40%;
+  background-color: white;
+}
+
+.logPage .logIn .loginInsert .loginInsertName i {
+  height: 4vh;
+  font-size: 4vh;
+  line-height: 4vh;
+  color: #303952;
+}
+
+.logPage .logIn .loginInsert .loginInsertName input {
+  margin-left: 1vh;
+  width: 60%;
+  height: 5vh;
+  border-radius: 4vh;
+  padding-left: 2vh;
+  border: 0.2vh solid #7e8ea5;
+  font-size: 2vh;
+  color: #303952;
+}
+
+.logPage .logIn .loginInsert .loginInsertName input:focus {
+  outline: none;
+}
+
+.logPage .logIn .loginInsert .loginInsertPassword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40%;
+  background-color: white;
+}
+
+.logPage .logIn .loginInsert .loginInsertPassword i {
+  height: 4vh;
+  font-size: 4vh;
+  line-height: 4vh;
+  color: #303952;
+}
+
+.logPage .logIn .loginInsert .loginInsertPassword input {
+  margin-left: 1vh;
+  width: 60%;
+  height: 5vh;
+  border-radius: 4vh;
+  padding-left: 2vh;
+  border: 0.2vh solid #7e8ea5;
+  font-size: 2vh;
+  color: #303952;
+}
+
+.logPage .logIn .loginInsert .loginInsertPassword input:focus {
+  outline: none;
+}
+
+.logPage .logIn .loginInsert .loginInsertHelp {
+  height: 20%;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+.logPage .logIn .loginInsert .loginInsertHelp a {
+  margin: auto;
+  color: #596275;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.logPage .logIn .loginInsert .loginInsertHelp a:hover {
+  text-decoration: underline;
+}
+
+.logPage .logIn .loginAccept {
+  height: 25%;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 4vh;
+  border-bottom-right-radius: 4vh;
+  border-top: 0.5vh solid rgba(126, 142, 165, 0.5);
+}
+
+.logPage .logIn .loginAccept button {
+  height: 6vh;
+  width: 50%;
+  font-size: 3vh;
+  color: white;
+  background-color: #7e8ea5;
+  line-height: 3vh;
+  border-radius: 3vh;
+  border: 0.2vh solid #7e8ea5;
+  background-color: #596275;
+  -webkit-transform: translateY(-0.2vh);
+          transform: translateY(-0.2vh);
+  -webkit-transition: 0.15s linear;
+  transition: 0.15s linear;
+  -webkit-box-shadow: 0 0.4vh #596275;
+          box-shadow: 0 0.4vh #596275;
+}
+
+.logPage .logIn .loginAccept button:active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-box-shadow: 0 0.1vh #596275;
+          box-shadow: 0 0.1vh #596275;
+}
+
+.logPage::before {
+  content: "";
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #7e8ea5;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #303952;
+}
+/*# sourceMappingURL=style.css.map */

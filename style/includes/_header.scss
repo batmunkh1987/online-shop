@@ -1,0 +1,154 @@
+@import './variable';
+.headMain{
+    width: 92%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4% 0 4%;
+    background-color: $backColor;
+
+    .headTopic{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                font-size: 2.5vh;
+                color: white;
+                transition: 0.3s linear;                
+            }
+            a:hover{
+                box-shadow: 0 0.2vh $darkColor;
+                color:$darkColor;
+            }
+        }
+    }
+}
+
+.headSearch{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .searchInp{
+        width: 90%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width: 90%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 3vh; 
+
+            input{
+                height: 4vh;
+                padding-left:3vh;
+                width: 65%;
+                height: 100%;                
+                font-size: 2.2vh;
+                border-radius: 3vh;
+                border: none;
+                background-color: white;
+                color:$hoverColor;
+            }
+            input::placeholder{
+                color:$hoverColor;
+            }
+            input:focus{
+                outline: none;
+            }
+            button{
+                width: 35%;
+                height: 5vh;
+                border-radius: 3vh;
+                border:0.2vh solid $backColor;
+                background-color: $hoverColor;
+                color: white;
+                font-size: 2.5vh;
+                transform: translateY(-0.3vh);
+                transition: 0.15s linear;
+                box-shadow: 0 0.4vh $hoverColor;
+                i{
+                    margin-right: 1.5vh;
+                }
+            }
+            button:active{
+                    transform: translateY(0);
+                    box-shadow: 0 0.1vh $hoverColor;
+            }
+
+        }
+    }
+} 
+
+.headLogin{
+    width: 25%;
+    display: flex;
+    justify-content:right;
+    align-items: center ;
+    color:$hoverColor ;
+    height: 100%;
+
+    .headLogo{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        i{
+            margin-right: 4vh;
+            font-size: 3vh;
+            color: white;
+            transition: 0.3s ease-in-out;
+        }
+        i:hover{
+            cursor: pointer;  
+            color:$darkColor ;          
+        }
+    }
+    .headLog{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        
+        button{
+            width: 100%;
+            font-size: 3vh;
+            color:white;
+            border: none;
+            background-color: $backColor;
+            line-height: 3vh;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            border-radius: 2vh;
+            i{
+                margin-right: 0.8vh;
+                line-height: 4vh;
+                font-size: 2.5vh;
+            }            
+        }
+        button:hover{
+            border: 0.2vh solid white;
+            border-radius: 2vh;
+            background-color: white;
+            color: $backColor;
+        }
+    }
+}
